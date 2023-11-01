@@ -6,17 +6,24 @@ const Container = styled.div`
   justify-content: center;
 `;
 const StyledWrapper = styled.div`
-  width: 500px;
+  width: 420px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 30px;
   margin-top: 5vh;
   height: 85vh;
   background-color: white;
-  border-radius: 40px;
+  border-radius: 30px;
+  > * {
+    margin-bottom: 15px;
+  }
 `;
 
-const Wrapper = () => {
+const Wrapper = ({children}) => {
   return (
     <Container>
-      <StyledWrapper></StyledWrapper>
+      <StyledWrapper>{children}</StyledWrapper>
     </Container>
   );
 };
