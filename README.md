@@ -1,8 +1,9 @@
-# React + Vite
+## 리액트를 이용한 투두앱 작성
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+새로운 프로젝트에 리액트 쿼리를 도입해보기 이전 리액트 쿼리 기술에 익숙해지기 위해 작성해보는 투두 웹 사이트이다.
 
-Currently, two official plugins are available:
+## 적용시켜보고자 하는 기술들
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. 리액트 쿼리를 이용한 서버 상태 관리
+2. jotai, zustand 등 다른 상태 관리 라이브러리를 통한 전역 상태 관리
+3. jest를 이용한 테스트
