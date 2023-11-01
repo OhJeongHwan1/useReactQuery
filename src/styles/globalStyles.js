@@ -8,7 +8,8 @@ const GlobalStyle = createGlobalStyle`
   #root {
     max-width: 2000px;
     margin: 0 auto; //
-
+    height: 100vh;
+    background-color: #F2F2F2;
   }
   /* Remove default padding */
   ul[class],
