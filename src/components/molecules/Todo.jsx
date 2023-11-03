@@ -21,7 +21,7 @@ const Todo = ({text, checked}) => {
   return (
     <Wrapper>
       <Checkbox
-        checked={checked}
+        checked={checked !== undefined ? checked : false}
         sx={{
           color: '#DF0174',
           '&.Mui-checked': {
